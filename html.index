@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Ren Tasaki-PROFILE</title>
+  </head>
+
+  <body>
+    <h1>Ren Tasaki<br><span>University of London ｜ Musashi University</span></h1>
+
+
+      <ul class="navi">
+        <li>ABOUT</li>
+        <li>EDUCATION</li>
+        <li>CERTIFICATION</li>
+        <li>FUTURE</li>
+        <li>CONTACT</li>
+      </ul>
+
+
+     <div class="メイン">
+        <img src="画像/main.jpg">
+     </div> 
+      
+    
+      <h2 class="About">ABOUT</h2>
+      <p>私は栃木県の私立高校を卒業し、武蔵大学経済学部金融学科に進学しました。そして武蔵大学に入学後、面白いことをしたいと思い英語を使って経済学などを学ぶプログラムであるPDPに入りました。そして現在は武蔵大学に通いながら、University of Londonの授業を受講しています。いわゆるダブルディグリーをしている大学２年生です。現在は、経済学/会計/経営学/統計学を主に学んでいます。統計学が一番好きです。</p>
+
+
+     <div class="Education">
+        <h2 class="hStyle">EDUCATIONAL</h2>
+        <table>
+          <tr>
+              <th>2014/4 ~ 2020/3</th>
+              <td>佐野日本大学中等教育学校</td>
+          </tr>
+          <tr>
+              <th>2020/4 ~</th>
+              <td>武蔵大学経済学部金融学科</td>
+          </tr>
+          <tr>
+              <th>2020/9 ~ 2021/6</th>
+              <td>International Foundation Programm with Merit</td>
+          </tr>
+          <tr>
+              <th>2021/9 ~</th>
+              <td>BSc</td>
+          </tr> 
+        </table>
+     </div>
+      
+
+      <h2 class="Certification">CERTIFICATION</h2>
+      <p class="ielts">IELTS   Overall 6.0</p>
+
+
+      <div class="Future">
+        <h2 class="hStyle">FURURE</h2>
+        <ul>
+            <li>
+                <img src="画像/Future01.jpg">
+                <h3>会計-Accounting</h3>
+                <p>簿記２級 - 目標11月</p>
+            </li>
+            <li>
+              <img src="画像/Future02.jpg">
+              <h3>統計-Statistics</h3>
+              <p>統計検定２級 - 目標11月</p>
+            </li>
+            <li>
+              <img src="画像/Future03.jpg">
+              <h3>金融-Finance</h3>
+              <p>証券アナリスト（CMA）- 在学中</p>
+            </li>
+        </ul>
+      </div>
+
+  </body>
+
+  
+<h2>CONTACT</h2>
+  <div class="box_con08">
+    <form method="post" action="mail.php">
+    <ul class="formTable">
+      <li>
+        <p class="title"><em>お名前<span>必須</span></em></p>
+        <div class="box_det"><input size="20" type="text" class="wide" name="お名前" /></div>
+      </li>
+      <li>
+        <p class="title"><em>電話番号（半角）<span>必須</span></em></p>
+        <div class="box_det"><input size="30" type="text" class="wide" name="電話番号" /></div>
+      </li>
+      <li>
+        <p class="title"><em>Mail（半角）</em></p>
+        <div class="box_det"><input size="30" type="text" class="wide" name="Email" /></div>
+      </li>
+      <li>
+        <p class="title"><em>お問い合わせ内容</em></p>
+        <div class="box_det"><textarea name="お問い合わせ内容" cols="50" rows="5"></textarea></div>
+      </li>
+    </ul>
+  </form>
+</div>
+
+</html>       
